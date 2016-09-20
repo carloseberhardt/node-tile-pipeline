@@ -1,4 +1,4 @@
-FROM alpine-node
+FROM mhart/alpine-node
 
 RUN apk --update upgrade && \
     apk add --update ca-certificates && \
